@@ -16,7 +16,7 @@ struct FirstView: View {
             .edgesIgnoringSafeArea(.all)
             .overlay(
                 VStack {
-                    Text("Count: \(logic.count)")
+                    Text("Count: \(logic.viewModel.count)")
                     Button(action: logic.onPress) {
                         Text("Press Me")
                     }

@@ -9,17 +9,21 @@ import SwiftUI
 
 final class FirstLogic: ObservableObject {
     
+    struct ViewModel {
+        var count: Int
+    }
+    
     private let service: CalculationService
-    @Published var count: Int = 0
+    @Published var viewModel: ViewModel
     
     init(count: Int, service: CalculationService) {
         self.service = service
-        self.count = count
+        self.viewModel = ViewModel(count: count)
     }
     
     func onPress() {
-        service.add(count: count) { [weak self] result in
-            self?.count = result
+        service.add(count: viewModel.count) { [weak self] result in
+            self?.viewModel.count = result
         }
     }
 }
