@@ -7,18 +7,25 @@
 
 import UIKit
 
-final class MainCoordinator {
+final class MainCoordinator: Coordinator {
     
     private let factory = MainFactory()
-    private let router: UINavigationController
-    
-    init(router: RootNavigationController) {
-        self.router = router
-    }
     
     func start() {
         let first = factory.createFirst()
-        router.pushViewController(first, animated: true)
+        self.push(controller: first)
+    }
+    
+    override func open(route: Route) {
+        switch route {
+        case .second:
+            self.openSecond()
+        }
+    }
+    
+    private func openSecond() {
+        let second = factory.createSecond()
+        self.push(controller: second)
     }
 
 }

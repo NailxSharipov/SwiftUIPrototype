@@ -1,19 +1,19 @@
 //
-//  FirstView.swift
+//  SecondView.swift
 //  SwiftUIDemo
 //
-//  Created by Nail Sharipov on 03.06.2021.
+//  Created by Nail Sharipov on 04.06.2021.
 //
 
 import SwiftUI
 
-struct FirstView: View {
+struct SecondView: View {
 
-    let interactor: FirstInteractor
-    @ObservedObject var presenter: FirstPresenter
+    let interactor: SecondInteractor
+    @ObservedObject var presenter: SecondPresenter
 
     var body: some View {
-        Color(red: 0.7, green: 1, blue: 0.7, opacity: 1)
+        Color(red: 1, green: 1, blue: 0.7, opacity: 1)
             .edgesIgnoringSafeArea(.all)
             .overlay(
                 VStack {

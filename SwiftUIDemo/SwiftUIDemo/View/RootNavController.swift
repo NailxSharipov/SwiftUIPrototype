@@ -15,7 +15,7 @@ final class RootNavigationController: UINavigationController {
         self.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationBar.shadowImage = UIImage()
         self.navigationBar.isTranslucent = true
-        self.navigationBar.tintColor = .white
+        self.navigationBar.tintColor = .black
         self.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         self.navigationBar.topItem?.backBarButtonItem = UIBarButtonItem()
         

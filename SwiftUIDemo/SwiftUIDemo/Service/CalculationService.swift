@@ -11,7 +11,7 @@ final class CalculationService {
     
     func add(count: Int, callback: @escaping (Int) -> ()) {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            callback(count + 1)
+            callback(count - 1)
         }
     }
 }

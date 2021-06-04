@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5401DC2E2669F03F001B3445 /* FirstPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC2D2669F03F001B3445 /* FirstPresenter.swift */; };
+		5401DC302669F360001B3445 /* FirstInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC2F2669F360001B3445 /* FirstInteractor.swift */; };
+		5401DC332669F959001B3445 /* SecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC322669F959001B3445 /* SecondController.swift */; };
+		5401DC352669F969001B3445 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC342669F969001B3445 /* SecondView.swift */; };
+		5401DC372669F975001B3445 /* SecondPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC362669F975001B3445 /* SecondPresenter.swift */; };
+		5401DC392669F981001B3445 /* SecondInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC382669F981001B3445 /* SecondInteractor.swift */; };
+		5401DC3C2669FA4D001B3445 /* Coordinatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC3B2669FA4D001B3445 /* Coordinatable.swift */; };
+		5401DC3E2669FBD4001B3445 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5401DC3D2669FBD4001B3445 /* Route.swift */; };
 		5473337D26677BE1009D6737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473337C26677BE1009D6737 /* AppDelegate.swift */; };
 		5473338626677BE3009D6737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5473338526677BE3009D6737 /* Assets.xcassets */; };
 		5473338926677BE3009D6737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5473338726677BE3009D6737 /* LaunchScreen.storyboard */; };
@@ -15,12 +23,19 @@
 		547333972667807D009D6737 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547333962667807D009D6737 /* MainCoordinator.swift */; };
 		547333992668A1EB009D6737 /* MainFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547333982668A1EB009D6737 /* MainFactory.swift */; };
 		5473339C2668BFCC009D6737 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5473339B2668BFCC009D6737 /* FirstView.swift */; };
-		547333A12668CE0B009D6737 /* FirstLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547333A02668CE0B009D6737 /* FirstLogic.swift */; };
 		547333A42668CEA9009D6737 /* CalculationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547333A32668CEA9009D6737 /* CalculationService.swift */; };
 		547333A62668CF17009D6737 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547333A52668CF17009D6737 /* ServiceLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5401DC2D2669F03F001B3445 /* FirstPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresenter.swift; sourceTree = "<group>"; };
+		5401DC2F2669F360001B3445 /* FirstInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstInteractor.swift; sourceTree = "<group>"; };
+		5401DC322669F959001B3445 /* SecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondController.swift; sourceTree = "<group>"; };
+		5401DC342669F969001B3445 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		5401DC362669F975001B3445 /* SecondPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresenter.swift; sourceTree = "<group>"; };
+		5401DC382669F981001B3445 /* SecondInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondInteractor.swift; sourceTree = "<group>"; };
+		5401DC3B2669FA4D001B3445 /* Coordinatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinatable.swift; sourceTree = "<group>"; };
+		5401DC3D2669FBD4001B3445 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		5473337926677BE1009D6737 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5473337C26677BE1009D6737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5473338526677BE3009D6737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -31,7 +46,6 @@
 		547333962667807D009D6737 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		547333982668A1EB009D6737 /* MainFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFactory.swift; sourceTree = "<group>"; };
 		5473339B2668BFCC009D6737 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
-		547333A02668CE0B009D6737 /* FirstLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLogic.swift; sourceTree = "<group>"; };
 		547333A32668CEA9009D6737 /* CalculationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationService.swift; sourceTree = "<group>"; };
 		547333A52668CF17009D6737 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +61,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5401DC312669F923001B3445 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				5401DC322669F959001B3445 /* SecondController.swift */,
+				5401DC342669F969001B3445 /* SecondView.swift */,
+				5401DC362669F975001B3445 /* SecondPresenter.swift */,
+				5401DC382669F981001B3445 /* SecondInteractor.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		5401DC3A2669FA17001B3445 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5401DC3B2669FA4D001B3445 /* Coordinatable.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		5473337026677BE1009D6737 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +114,7 @@
 		5473339026677BF2009D6737 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5401DC312669F923001B3445 /* Second */,
 				5473339E2668CDEA009D6737 /* First */,
 				5473339126677C07009D6737 /* RootNavController.swift */,
 			);
@@ -90,8 +124,10 @@
 		547333952667806A009D6737 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				5401DC3A2669FA17001B3445 /* Base */,
 				547333962667807D009D6737 /* MainCoordinator.swift */,
 				547333982668A1EB009D6737 /* MainFactory.swift */,
+				5401DC3D2669FBD4001B3445 /* Route.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -101,7 +137,8 @@
 			children = (
 				5473339326677C34009D6737 /* FirstController.swift */,
 				5473339B2668BFCC009D6737 /* FirstView.swift */,
-				547333A02668CE0B009D6737 /* FirstLogic.swift */,
+				5401DC2D2669F03F001B3445 /* FirstPresenter.swift */,
+				5401DC2F2669F360001B3445 /* FirstInteractor.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -192,12 +229,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				547333992668A1EB009D6737 /* MainFactory.swift in Sources */,
+				5401DC2E2669F03F001B3445 /* FirstPresenter.swift in Sources */,
+				5401DC3C2669FA4D001B3445 /* Coordinatable.swift in Sources */,
 				5473339C2668BFCC009D6737 /* FirstView.swift in Sources */,
 				5473337D26677BE1009D6737 /* AppDelegate.swift in Sources */,
+				5401DC3E2669FBD4001B3445 /* Route.swift in Sources */,
 				547333A42668CEA9009D6737 /* CalculationService.swift in Sources */,
 				5473339426677C34009D6737 /* FirstController.swift in Sources */,
-				547333A12668CE0B009D6737 /* FirstLogic.swift in Sources */,
+				5401DC352669F969001B3445 /* SecondView.swift in Sources */,
+				5401DC372669F975001B3445 /* SecondPresenter.swift in Sources */,
 				547333972667807D009D6737 /* MainCoordinator.swift in Sources */,
+				5401DC302669F360001B3445 /* FirstInteractor.swift in Sources */,
+				5401DC392669F981001B3445 /* SecondInteractor.swift in Sources */,
+				5401DC332669F959001B3445 /* SecondController.swift in Sources */,
 				547333A62668CF17009D6737 /* ServiceLayer.swift in Sources */,
 				5473339226677C07009D6737 /* RootNavController.swift in Sources */,
 			);
